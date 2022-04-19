@@ -1,0 +1,32 @@
+* {
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 3;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+}
+
+.square:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.side-panel {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.side-panel div {
+    width: 450px;
+}
