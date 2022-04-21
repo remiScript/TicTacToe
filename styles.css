@@ -1,6 +1,12 @@
 * {
-    border: 1px solid red;
     box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    font-size: 1.5rem;
 }
 
 .container {
@@ -10,15 +16,21 @@
     display: grid;
     grid-template-columns: 150px 150px 150px;
     grid-template-rows: 3;
+    margin-bottom: 10px;    
 }
 
 .square {
+    border: 2px solid white;
     height: 150px;
     width: 150px;
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .square:hover {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(255, 0, 64, 0.8);
 }
 
 .side-panel {
